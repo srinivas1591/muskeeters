@@ -42,11 +42,9 @@
 						    echo '<tr>
 						      <th scope="row">'.$abc['student'].'</th>
 						      <td colspan="2">'.$abc['marks'].'</td>
-						    </tr>
-						  </tbody>
-						</table>';
+						    </tr>';
 						}
-			echo '</center>';
+			echo '</tbody></table></center>';
 			}
 		?>
 </body>
