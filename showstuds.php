@@ -1,8 +1,7 @@
 <?php 
+	include 'navbar.php';
 	include 'database.php';
-	
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +10,7 @@
 </head>
 <body>
 		<?php 
-			include 'navbar.php';
+			
 			if(!isset($_SESSION['classroom']))
 			{
 				header('location:facultydashboard.php');
