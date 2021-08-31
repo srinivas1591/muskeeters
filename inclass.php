@@ -1,4 +1,5 @@
 <?php 
+include 'navbar.php';
 	if(!isset($_GET['classid']))
 	{
 		header('location:redirect.php');
@@ -15,7 +16,7 @@
 </head>
 <body>
 	<?php
-		include 'navbar.php';
+		
 		$_SESSION['classroom']=$classid;
 	?>
 	<?php 
