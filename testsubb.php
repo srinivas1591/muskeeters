@@ -1,4 +1,5 @@
 <?php 
+	include 'navbar.php';
 	include 'database.php';
 	if(!isset($_GET['testid']))
 	{
@@ -14,7 +15,7 @@
 </head>
 <body>
 		<?php 
-			include 'navbar.php';
+			
 			if(!isset($_SESSION['faculty']))
 			{
 				header('location:redirect.php');
