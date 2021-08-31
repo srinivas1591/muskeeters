@@ -1,3 +1,6 @@
+<?php
+	include 'navbar.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,9 +8,6 @@
 	<title>Upload questions</title>
 </head>
 <body>
-  <?php 
-    include 'navbar.php';
-  ?>
   <?php 
     if(isset($_SESSION['warning']))
     {
