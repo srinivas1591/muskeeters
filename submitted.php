@@ -1,7 +1,7 @@
 <?php 
-	include 'database.php';
 	include 'navbar.php';
-	If(!isset($_SESSION['ac1']))
+	include 'database.php';
+	if(!isset($_SESSION['ac1']))
 	{
 		header('location:studenttests.php');
 	}
