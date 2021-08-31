@@ -1,3 +1,4 @@
+<?php include 'navbar.php'  ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +10,7 @@
 	<title>Create Classroom</title>
 </head>
 <body>
-	<?php include 'navbar.php'  ?>
+	
 	<?php 
 		if(isset($_SESSION['warning']))
 		{
