@@ -1,3 +1,7 @@
+<?php 
+	include 'navbar.php';
+	include 'database.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,10 +9,7 @@
 	<title>Student Tests</title>
 </head>
 <body>
-	<?php 
-		include 'navbar.php';
-		include 'database.php';
-	?><br>
+	<br>
 	 <div class="card card-body">
 	  	<h4>Student Submissions</h4>
 	  	<div class="card">
