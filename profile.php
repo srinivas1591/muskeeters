@@ -1,3 +1,6 @@
+<?php 
+	include 'navbar.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,9 +8,7 @@
 	<title>User Profile</title>
 </head>
 <body>
-	<?php 
-		include 'navbar.php';
-	?>
+	
 	<center><br><br>
 		<div class="card" style="width: 18rem;">
 		  <img class="card-img-top" src="images/profileicon.png" alt="Card image cap">
