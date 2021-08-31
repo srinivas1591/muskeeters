@@ -1,3 +1,6 @@
+<?php
+	include 'navbar.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +9,7 @@
 </head>
 <body>
 	<?php  
-		include 'navbar.php';
+		
 		if(isset($_SESSION['student']))
 		{
 			header('location:studentassignments.php');
