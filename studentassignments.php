@@ -1,3 +1,6 @@
+<?php
+	include 'navbar.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,9 +8,7 @@
 	<title>Student Submissions</title>
 </head>
 <body>
-	<?php
-		include 'navbar.php';
-	?>
+	
 	<?php 
 		if(isset($_SESSION['warning']))
 		{
