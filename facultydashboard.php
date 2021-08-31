@@ -1,3 +1,4 @@
+<?php include 'navbar.php';?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,7 @@
 </head>
 <body>
 	
-		<?php include 'navbar.php';?>
+		
 
 
 		<br>
