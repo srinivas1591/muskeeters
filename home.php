@@ -27,7 +27,7 @@
 				    <h5 class="card-title">Subject : '.$ss['subject'].'</h5>
 				    <h5 class="card-title">Class Id : '.$ss['classid'].'</h5>
 				    <p class="card-text">-'.$ss['createdby'].'</p>
-				    <a href="inclass.php?classid='.$ss['classid'].'" class="btn btn-primary">Go to Classroom</a>
+				    <a href="inclassstudents.php?classid='.$ss['classid'].'" class="btn btn-primary">Go to Classroom</a>
 				  </div>
 				</div><br><br>';
 			}
