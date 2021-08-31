@@ -89,11 +89,12 @@
 				    	{
 				    		echo 
 				    		'<tr>
-						      <td>'.$fe['lecturer'].'</td>
+						      <td>'.$fe['assignmentid'].'</td>
 						      <td>'.$fe['subject'].'</td>
-						      <td>'.$fe['date'].'</td>
-						      <td>'.$fe['start'].' - '.$fe['end'].'</td>
-						      <td><a href="'.$fe['link'].'" target="_blank">Click Here</a></td>
+						      <td>'.$fe['date'].' '.$fe['deadline'].'</td>
+						      <td>'.$fe['status'].'</td>
+						      <td><a href="uploads/pdf/'.$fe['file'].'" target="_blank">Click Here</a></td>
+						      <td><a href="studsubs.php?assign='.$fe['assignmentid'].'"><button class="btn btn-success">Submissions</button></a></td>
 						    </tr>';
 				    	}
 				    }
