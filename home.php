@@ -1,3 +1,6 @@
+<?php 
+		include 'navbar.php';
+	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,9 +11,7 @@
 	<title>Homepage</title>
 </head>
 <body>
-	<?php 
-		include 'navbar.php';
-	?><br>
+	<br>
 	<center>
 		<a href="join.php"><button class="btn btn-success">Join Class <b>+</b></button></a>
 	</center>
