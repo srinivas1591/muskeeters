@@ -1,3 +1,6 @@
+<?php
+	include 'navbar.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +9,7 @@
 </head>
 <body>
 	<?php 
-		include 'navbar.php';
+		
     	$fet=mysqli_query($database,"select * from users where username='$username' and role='Student'");
     	$fetc=mysqli_fetch_assoc($fet);
     	$branch=$fetc['branch'];
